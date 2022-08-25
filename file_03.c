@@ -7,6 +7,11 @@ int main(){
     char filename[20], c;
     printf("\nEnter name of file: ");
     gets(filename);
+    file = fopen(filename, "w");
+    if(file==NULL){
+        printrf
+    }
+
 
 
 }
